@@ -2,5 +2,5 @@ language: php
 php:
   - '7.3.4'
 script:
-  - cd c:\studay\travisCI\TimeClock\vendor\bin
+  - cd vendor\bin
   - .\phpunit -v
