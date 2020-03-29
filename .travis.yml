@@ -2,5 +2,4 @@ language: php
 php:
   - '7.3.4'
 script:
-  - cd $TRAVIS_BUILD_DIR/vendor/bin
-  - .\phpunit -v
+  - vendor/bin/phpunit -v
